@@ -174,6 +174,27 @@
         description = "Composite Restoration"
         alt_ar = "حشو ليزر الضروس الخلفية"
         description_ar = "حشو ليزر الضروس الخلفية"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/50d979a0-4879-4ea1-b041-5bd50a3ad1bc"
+        alt = "Composite Restoration"
+        description = "Composite Restoration"
+        alt_ar = "حشو تجميلي"
+        description_ar = "حشو تجميلي"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/fe131ddc-0bad-4203-afd5-e3462bf8718a"
+        alt = "Composite Restoration"
+        description = "Composite Restoration"
+        alt_ar = "حشو تجميلي للاسنان الأمامية"
+        description_ar = "حشو تجميلي للاسنان الأمامية"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/44fde5e2-259e-4ca6-bd2f-82bac094b4db"
+        alt = "Composite Restoration"
+        description = "Composite Restoration"
+        alt_ar = "حشو عادي"
+        description_ar = "حشو عادي"
 
     [[params.clinical_cases]]
       enabled = true
@@ -198,11 +219,6 @@
         description = "Endodontic ttt"
         alt_ar = "حشو عصب لضرس خلفي"
         description_ar = "حشو عصب لضرس خلفي"
-
-    [[params.clinical_cases]]
-      enabled = true
-      category = "endo"
-      category_ar = "اندو"
       
       [[params.clinical_cases.cases]]
         photo = "https://github.com/user-attachments/assets/1fd9d5b0-eb3a-4251-9fb7-824cb971fcdc"
@@ -210,11 +226,6 @@
         description = "Endodontic ttt"
         alt_ar = "حشو عصب"
         description_ar = "حشو عصب"
-
-    [[params.clinical_cases]]
-      enabled = true
-      category = "endo"
-      category_ar = "اندو"
       
       [[params.clinical_cases.cases]]
         photo = "https://github.com/user-attachments/assets/4c33bfe5-448c-4366-a1ce-f18627029e75"
@@ -222,35 +233,6 @@
         description = "Endodontic ttt"
         alt_ar = "حشو عصب"
         description_ar = "حشو عصب"
-
-    [[params.clinical_cases]]
-      enabled = true
-      category = "operative"
-      category_ar = "اوبريتيف"
-      
-      [[params.clinical_cases.cases]]
-        photo = "https://github.com/user-attachments/assets/50d979a0-4879-4ea1-b041-5bd50a3ad1bc"
-        alt = "Composite Restoration"
-        description = "Composite Restoration"
-        alt_ar = "حشو تجميلي"
-        description_ar = "حشو تجميلي"
-
-    [[params.clinical_cases]]
-      enabled = true
-      category = "operative"
-      category_ar = "اوبريتيف"
-      
-      [[params.clinical_cases.cases]]
-        photo = "https://github.com/user-attachments/assets/fe131ddc-0bad-4203-afd5-e3462bf8718a"
-        alt = "Composite Restoration"
-        description = "Composite Restoration"
-        alt_ar = "حشو تجميلي للاسنان الأمامية"
-        description_ar = "حشو تجميلي للاسنان الأمامية"
-
-    [[params.clinical_cases]]
-      enabled = true
-      category = "endo"
-      category_ar = "اندو"
       
       [[params.clinical_cases.cases]]
         photo = "https://github.com/user-attachments/assets/c77ddbe9-186f-4a83-9990-27470c3eaceb"
@@ -258,23 +240,6 @@
         description = "Endodontic ttt"
         alt_ar = "حشو عصب"
         description_ar = "حشو عصب"
-
-    [[params.clinical_cases]]
-      enabled = true
-      category = "operative"
-      category_ar = "اوبريتيف"
-      
-      [[params.clinical_cases.cases]]
-        photo = "https://github.com/user-attachments/assets/44fde5e2-259e-4ca6-bd2f-82bac094b4db"
-        alt = "Composite Restoration"
-        description = "Composite Restoration"
-        alt_ar = "حشو عادي"
-        description_ar = "حشو عادي"
-
-    [[params.clinical_cases]]
-      enabled = true
-      category = "endo"
-      category_ar = "اندو"
       
       [[params.clinical_cases.cases]]
         photo = "https://github.com/user-attachments/assets/ece84c90-0bac-4410-bd7e-d3aa676b4738"
