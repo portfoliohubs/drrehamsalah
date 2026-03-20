@@ -1,0 +1,413 @@
+  baseURL = "https://portfoliohubs.github.io/drrehamsalah/"
+  languageCode = "en-us"
+  title = "Dr. Reham Salah"
+  defaultContentLanguage = "en"
+
+  [params]
+    # Hero Section
+    [params.hero]
+      name = "Dr. Reham Salah"
+      tagline = "Internship Doctor"
+      graduation = "Graduated 2025 - Faculty of Dentistry"
+      profile_image = "https://github.com/user-attachments/assets/ad7eb9f4-8051-4d9d-98f4-d27103d70b74"
+      profile_image_alt = "Profile photo of Dr. Reham Salah"
+      
+      [params.hero.current_position]
+        role = "Internship Doctor"
+        clinic = "Internship Doctor at Zagazig University Hospital"
+
+    [params.seo]
+      description = "Professional dental portfolio"
+      doctor_name_en = "Dr. Reham Salah"
+      doctor_name_ar = "د. ريهام صلاح"
+      site_name = "Dr. Reham Salah"
+      og_image = "https://github.com/user-attachments/assets/79cfc825-8540-482f-866f-fb674703b8d2"
+      favicon_image = "https://github.com/user-attachments/assets/79cfc825-8540-482f-866f-fb674703b8d2"
+      twitter_handle = ""
+      keywords = [
+        "دكتور ريهام صلاح أسنان",
+        "دكتور ريهام صلاح أسنان الزقازيق",
+        "دكتور ريهام صلاح تجميل",
+        "طبيب أسنان",
+        "dentist",
+        "dental clinic",
+        "cosmetic dentistry",
+        "restorative dentistry",
+        "Dr. Reham Salah",
+        "zagazig",
+        "DENTIST IN ZAGAZIG",
+        "DENTAL CLINIC IN ZAGAZIG",
+        "DENTAL CLINIC"
+      ]
+      keywords_ar = [
+        "دكتور ريهام صلاح أسنان",
+        "دكتور ريهام صلاح أسنان الزقازيق",
+        "دكتور ريهام صلاح تجميل",
+        "طبيب أسنان",
+        "طبيب أسنان",
+        "عيادة أسنان",
+        "تجميل الأسنان",
+        "ترميم الأسنان",
+        "د. ريهام صلاح",
+        "طبيب بالزقازيق",
+        "عيادة بالزقازيق",
+        "دكتور ريهام صلاح",
+        "عيادة ريهام صلاح",
+        "عيادة اسنان الشرقية",
+        "ريهام صلاح اسنان"
+      ]
+
+    [params.integrations]
+      google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+      google_analytics_measurement_id = ""
+
+    [params.ui]
+      [params.ui.nav]
+        profile = "Profile"
+        skills = "Skills"
+        education = "Education"
+        clinical_cases = "Clinical Cases"
+        cases_short = "Cases"
+        blog = "Blog"
+        contact = "Contact"
+
+      [params.ui.skills]
+        title = "Professional Skills"
+        clinical_title = "Clinical Skills"
+        digital_title = "Digital Skills"
+        soft_title = "Soft Skills"
+
+      [params.ui.education]
+        title = "Education & Timeline"
+        graduated_label = "Graduated"
+        career_timeline_title = "Career Timeline"
+        courses_title = "Courses & Certifications"
+
+      [params.ui.cases]
+        title = "Clinical Cases"
+        subtitle = "Clinical Cases Gallery"
+
+      [params.ui.blog]
+        title = "Latest Articles"
+        subtitle = "Insights and Knowledge"
+        empty_text = "No blog posts yet"
+
+      [params.ui.contact]
+        title = "Get In Touch"
+        subtitle = "Let's connect and collaborate"
+        follow_me_title = "Follow Me"
+
+      [params.ui.labels]
+        now_working_as = "Now working as"
+        at = "at"
+        phone = "Phone"
+        whatsapp = "WhatsApp"
+        email = "Email"
+        location = "Location"
+        get_directions = "Get Directions"
+        masters_degree = "Master's Degree"
+        phd_degree = "PhD Degree"
+        rights_reserved = "All rights reserved"
+
+    # Skills Section
+    [params.skills]
+      clinical = [
+        "Surgery",
+        "Endodontic",
+        "Esthetics",
+        "Pediatric"
+      ]
+      
+      digital = [
+        "Dental photography",
+        "Exocad",
+        "Blue sky",
+        "PowerPoint",
+        "Canva"
+      ]
+      
+      soft = [
+        "Time management",
+        "Pedo management",
+        "Adaptability",
+        "Team work",
+        "Attention to details",
+        "Communication"
+      ]
+
+    # Education Section
+    [params.education]
+      university = "Zagazig University Faculty of Dentistry"
+      graduation_year = "2025"
+      
+      [params.education.master]
+        obtained = false
+        title = "Master in Oral Medicine"
+        year = ""
+      
+      [params.education.phd]
+        obtained = false
+        title = "PhD in Dental Sciences"
+        year = ""
+      
+      [[params.education.timeline]]
+        year = "2020"
+        event = "Start faculty of dentistry"
+      
+      [[params.education.timeline]]
+        year = "2025"
+        event = "Graduated from faculty of dentistry"
+      
+      # Certificates (images will be uploaded via GitHub issues)
+      # [[params.education.certificates]]
+      #   title = "Advanced Endodontics Course"
+      #   image = "cert1.jpg"
+    # Clinical Cases Section
+    [[params.clinical_cases]]
+      enabled = true
+      category = "operative"
+      category_ar = "اوبريتيف"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/bd6d340e-ee8f-4f57-9a52-e6d18da9a5bb"
+        alt = "Composite Restoration"
+        description = "Composite Restoration"
+        alt_ar = "حشو ليزر الضروس الخلفية"
+        description_ar = "حشو ليزر الضروس الخلفية"
+
+    [[params.clinical_cases]]
+      enabled = true
+      category = "crown"
+      category_ar = "كراون"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/1dcf4270-7e62-4838-845f-a0b4cfc1e419"
+        alt = "PFM Bridge"
+        description = "PFM Bridge"
+        alt_ar = "كوبري لتعويض سن مفقود"
+        description_ar = "كوبري لتعويض سن مفقود"
+
+    [[params.clinical_cases]]
+      enabled = true
+      category = "endo"
+      category_ar = "اندو"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/ae3feb3b-d42c-4e1b-a9e4-655288849cd8"
+        alt = "Endodontic ttt"
+        description = "Endodontic ttt"
+        alt_ar = "حشو عصب لضرس خلفي"
+        description_ar = "حشو عصب لضرس خلفي"
+
+    [[params.clinical_cases]]
+      enabled = true
+      category = "endo"
+      category_ar = "اندو"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/1fd9d5b0-eb3a-4251-9fb7-824cb971fcdc"
+        alt = "Endodontic ttt"
+        description = "Endodontic ttt"
+        alt_ar = "حشو عصب"
+        description_ar = "حشو عصب"
+
+    [[params.clinical_cases]]
+      enabled = true
+      category = "endo"
+      category_ar = "اندو"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/4c33bfe5-448c-4366-a1ce-f18627029e75"
+        alt = "Endodontic ttt"
+        description = "Endodontic ttt"
+        alt_ar = "حشو عصب"
+        description_ar = "حشو عصب"
+
+    [[params.clinical_cases]]
+      enabled = true
+      category = "operative"
+      category_ar = "اوبريتيف"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/50d979a0-4879-4ea1-b041-5bd50a3ad1bc"
+        alt = "Composite Restoration"
+        description = "Composite Restoration"
+        alt_ar = "حشو تجميلي"
+        description_ar = "حشو تجميلي"
+
+    [[params.clinical_cases]]
+      enabled = true
+      category = "operative"
+      category_ar = "اوبريتيف"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/fe131ddc-0bad-4203-afd5-e3462bf8718a"
+        alt = "Composite Restoration"
+        description = "Composite Restoration"
+        alt_ar = "حشو تجميلي للاسنان الأمامية"
+        description_ar = "حشو تجميلي للاسنان الأمامية"
+
+    [[params.clinical_cases]]
+      enabled = true
+      category = "endo"
+      category_ar = "اندو"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/c77ddbe9-186f-4a83-9990-27470c3eaceb"
+        alt = "Endodontic ttt"
+        description = "Endodontic ttt"
+        alt_ar = "حشو عصب"
+        description_ar = "حشو عصب"
+
+    [[params.clinical_cases]]
+      enabled = true
+      category = "operative"
+      category_ar = "اوبريتيف"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/44fde5e2-259e-4ca6-bd2f-82bac094b4db"
+        alt = "Composite Restoration"
+        description = "Composite Restoration"
+        alt_ar = "حشو عادي"
+        description_ar = "حشو عادي"
+
+    [[params.clinical_cases]]
+      enabled = true
+      category = "endo"
+      category_ar = "اندو"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/ece84c90-0bac-4410-bd7e-d3aa676b4738"
+        alt = "Endodontic ttt"
+        description = "Endodontic ttt"
+        alt_ar = "حشو عصب"
+        description_ar = "حشو عصب"
+
+    [[params.clinical_cases]]
+      enabled = true
+      category = "pedo"
+      category_ar = "بيدو"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/605d5d90-0741-481e-b426-6d3293347c78"
+        alt = "Pulpectomy"
+        description = "Pulpectomy"
+        alt_ar = "حشو عصب أطفال"
+        description_ar = "حشو عصب أطفال"
+        
+    # Contact Section
+    [params.contact]
+      phone = "01023659077"
+      whatsapp = "01023659077"
+      email = "rehamsalah902@gmail.com"
+      instagram = "https://www.instagram.com/rehamsalah360?igsh=MWpoZ3Vhc2o5ZjZqZg=="
+      facebook = ""
+      linkedin = ""
+      
+      [params.contact.location]
+        enabled = true
+        address = "Zagazig University"
+        latitude = "30.584164517629812"
+        longitude = "31.48656310673843"
+
+  # Arabic Translations
+  [params.ar]
+    [params.ar.hero]
+      name = "د. ريهام صلاح السيد إبراهيم"
+      tagline = "طبيب امتياز"
+      graduation = "تخرج 2025 - كلية طب الأسنان"
+      profile_image_alt = "صورة الملف الشخصي للدكتور ريهام صلاح"
+      
+      [params.ar.hero.current_position]
+        role = "طبيب امتياز"
+        clinic = "طبيب امتياز بمستشفى جامعة الزقازيق"
+    
+  [params.ar.skills]
+      clinical = [
+        "جراحة",
+        "حشو عصب",
+        "حشو تجميلي",
+        "حشو عصب أطفال"
+      ]
+      
+      digital = [
+        "بوربوينت",
+        "إكسوكاد",
+        "بلو سكاي"
+      ]
+      
+      soft = [
+        "إدارة الوقت",
+        "المرونة",
+        "العمل الجماعي",
+        "حل المشكلات",
+        "مهارات التواصل",
+        "الانتباه للتفاصيل"
+      ]
+      
+    
+    [params.ar.education]
+      university = "جامعة الزقازيق"
+      
+      [params.ar.education.master]
+        title = "ماجستير في طب الفم"
+      
+      [params.ar.education.phd]
+        title = "دكتوراه في علوم الأسنان"
+      
+      [[params.ar.education.timeline]]
+        event = "2020 الدخول الى الكلية"
+      
+      [[params.ar.education.timeline]]
+        event = "2025التخرج من الكلية"  
+
+    [params.ar.contact.location]
+      address = "جامعة الزقازيق"
+
+    [params.ar.ui]
+      [params.ar.ui.nav]
+        profile = "الملف الشخصي"
+        skills = "المهارات"
+        education = "التعليم"
+        clinical_cases = "الحالات السريرية"
+        cases_short = "الحالات"
+        blog = "المدونة"
+        contact = "التواصل"
+
+      [params.ar.ui.skills]
+        title = "المهارات المهنية"
+        clinical_title = "المهارات السريرية"
+        digital_title = "المهارات الرقمية"
+        soft_title = "المهارات الشخصية"
+
+      [params.ar.ui.education]
+        title = "التعليم والخط الزمني"
+        graduated_label = "تخرج"
+        career_timeline_title = "الخط الزمني المهني"
+        courses_title = "الدورات والشهادات"
+
+      [params.ar.ui.cases]
+        title = "الحالات السريرية"
+        subtitle = "معرض الحالات السريرية"
+
+      [params.ar.ui.blog]
+        title = "أحدث المقالات"
+        subtitle = "رؤى ومعرفة"
+        empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+      [params.ar.ui.contact]
+        title = "تواصل معي"
+        subtitle = "لنتواصل ونتعاون"
+        follow_me_title = "تابعني"
+
+      [params.ar.ui.labels]
+        now_working_as = "أعمل حالياً ك"
+        at = "في"
+        phone = "الهاتف"
+        whatsapp = "واتساب"
+        email = "البريد"
+        location = "الموقع"
+        get_directions = "احصل على الاتجاهات"
+        masters_degree = "درجة الماجستير"
+        phd_degree = "درجة الدكتوراه"
+        rights_reserved = "جميع الحقوق محفوظة"
